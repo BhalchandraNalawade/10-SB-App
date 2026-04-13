@@ -17,6 +17,7 @@ public class Application {
 	System.out.println(bean.hashCode());
          
          int i = 10;
+		String name = "Ashokit" ;
 
 	}
 
