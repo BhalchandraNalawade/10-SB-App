@@ -16,10 +16,6 @@ public class Application {
 	UserDao bean = context.getBean(UserDao.class);
 	System.out.println(bean.hashCode());
          
-         int i = 10;
-         int j = 20;
-	String name = "Ashokit" ;
-         int k = 30;
 	}
 
 } 
