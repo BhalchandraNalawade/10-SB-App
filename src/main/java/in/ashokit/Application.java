@@ -15,6 +15,8 @@ public class Application {
 	
 	UserDao bean = context.getBean(UserDao.class);
 	System.out.println(bean.hashCode());
+         
+         int i = 10;
 
 	}
 
