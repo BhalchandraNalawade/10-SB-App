@@ -16,7 +16,7 @@ public class Application {
 	UserDao bean = context.getBean(UserDao.class);
 	System.out.println(bean.hashCode());
          int k = 30;
-         String str = "Asmita";
+         
 	}
       
         // JIRA 102
