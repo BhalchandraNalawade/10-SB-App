@@ -15,6 +15,7 @@ public class Application {
 	
 	UserDao bean = context.getBean(UserDao.class);
 	System.out.println(bean.hashCode());
+         int k = 30;
          
 	}
       
@@ -22,5 +23,13 @@ public class Application {
         public void m2() {
              // logic
         }
+  
+       }
+ 
+       // JIRA 101 :-
+       public void m1() {
+             int i = 10;
+             int j = 20;
+      }
 
 } 
