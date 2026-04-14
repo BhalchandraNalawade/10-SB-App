@@ -17,5 +17,10 @@ public class Application {
 	System.out.println(bean.hashCode());
          
 	}
+      
+        // JIRA 102
+        public void m2() {
+             // logic
+        }
 
 } 
